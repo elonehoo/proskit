@@ -1,13 +1,12 @@
 {
-  "name": "toolbox",
+  "name": "bosch",
   "version": "0.0.1",
   "description": "a tool class that makes javascript very sweet",
   "packageManager": "pnpm@6.28.0",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "npm -C packages/toolbox run publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "packages/toolbox run publish"
   },
   "devDependencies": {
     "typescript": "^4.5.4",

@@ -1,6 +1,6 @@
 {
-  "name": "odinson",
-  "version": "0.0.2",
+  "name": "bosch",
+  "version": "0.0.1",
   "description": "a tool class that makes javascript very sweet",
   "packageManager": "pnpm@6.28.0",
   "author": "Elone Hoo <huchengyea@163.com>",
