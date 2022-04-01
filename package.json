@@ -1,13 +1,12 @@
 {
   "name": "toolbox",
   "version": "0.0.1",
-  "private": "true",
   "description": "a tool class that makes javascript very sweet",
   "packageManager": "pnpm@6.28.0",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "npm publish packages/toolbox",
+    "publish": "npm -C packages/toolbox run publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
