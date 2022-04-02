@@ -1,8 +1,7 @@
 
 import { assert, expect, test } from 'vitest'
 
-import convert from '../../../packages/toolbox/src/core/convert/convert'
-import strUtil from '../../../packages/toolbox/src/util/strUtil'
+import { strUtil, convert } from '../../../packages/toolbox/src/main'
 
 /**
  * test convert to string
