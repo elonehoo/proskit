@@ -1,4 +1,4 @@
-# crypto
+# guarda
 
 [![NPM version](https://img.shields.io/npm/v/crypto?color=a1b858&label=)](https://www.npmjs.com/package/crypto)
 
@@ -6,11 +6,11 @@
 
 ```bash
 # npm
-npm i crypto
+npm i guarda
 
 # yarn
-yarn add crypto
+yarn add guarda
 
 # pnpm
-pnpm i crypto
+pnpm i guarda
 ```

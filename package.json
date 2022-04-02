@@ -6,7 +6,7 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "packages/toolbox run publish"
+    "publish": "npm -C packages/toolbox run publish"
   },
   "devDependencies": {
     "typescript": "^4.5.4",
