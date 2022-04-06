@@ -1,4 +1,5 @@
 class strUtil{
+
     /**
      * Check if a string is empty
      * @param str judged string
@@ -7,9 +8,21 @@ class strUtil{
     static isEmpty(str:string):boolean{
         return str === null || str === undefined || str === '';
     }
+
+    /**
+     * Check if a string is not empty or null
+     * @param str judged string
+     * @returns boolean
+     */
     static isNotEmpty(str:string):boolean{
         return !strUtil.isEmpty(str);
     }
+
+    /**
+     * Check if a string is blank
+     * @param str judged string
+     * @returns boolean
+     */
     static isBlank(str:string):boolean{
         return strUtil.isEmpty(str) || str.trim() === '';
     }
@@ -54,6 +67,9 @@ class strUtil{
     }
     static isBlankOrUndefined(str:string):boolean{
         return strUtil.isBlank(str) || str === undefined;
+    }
+    static isNotBlankOrUndefined(str:string):boolean{
+        return !strUtil.isBlankOrUndefined(str);
     }
 }
 
