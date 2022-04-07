@@ -1,6 +1,6 @@
 {
-  "name": "test-core",
-  "private": true,
+  "name": "@proskit/test-core",
+  "private": false,
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"

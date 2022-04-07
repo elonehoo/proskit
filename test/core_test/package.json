@@ -1,7 +1,7 @@
 {
-  "name": "core_test",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@proskit/core_test",
+  "private": false,
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
