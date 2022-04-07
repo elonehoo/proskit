@@ -1,16 +1,16 @@
-# bosch
+# proskit
 
-[![NPM version](https://img.shields.io/npm/v/bosch?color=a1b858&label=)](https://www.npmjs.com/package/bosch)
+[![NPM version](https://img.shields.io/npm/v/@proskit/core?color=a1b858&label=)](https://www.npmjs.com/package/bosch)
 
 ## install
 
 ```bash
 # npm
-npm i guarda
+npm i @proskit/core
 
 # yarn
-yarn add guarda
+yarn add @proskit/core
 
 # pnpm
-pnpm i guarda
+pnpm i @proskit/core
 ```
