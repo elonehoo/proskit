@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "description": "a tool class that makes javascript very sweet",
+  "main": "./src/index.ts",
   "packageManager": "pnpm@6.28.0",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
