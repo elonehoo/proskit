@@ -1,6 +1,7 @@
 {
-  "name": "@bosch/util",
+  "name": "@proskit/util",
   "version": "0.0.1",
+  "private": false,
   "description": "a tool class that makes javascript very sweet",
   "packageManager": "pnpm@6.28.0",
   "author": "Elone Hoo <huchengyea@163.com>",
@@ -10,7 +11,7 @@
     "url": "git+https://github.com/elonehoo/toolbox"
   },
   "scripts": {
-    "publish": "npm publish",
+    "publish": "npm publish --access public",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -18,5 +19,8 @@
   "devDependencies": {
     "typescript": "^4.5.4",
     "vite": "^2.9.0"
+  },
+  "dependencies":{
+    "@proskit/core": "^0.0.1"
   }
 }

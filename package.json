@@ -1,5 +1,5 @@
 {
-  "name": "bosch",
+  "name": "@proskit/monorepo",
   "version": "0.0.1",
   "description": "a tool class that makes javascript very sweet",
   "packageManager": "pnpm@6.28.0",
