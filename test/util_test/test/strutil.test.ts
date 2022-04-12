@@ -1,7 +1,7 @@
 
 import { assert, expect, test } from 'vitest'
 
-import { strUtil } from '../../../packages/util/src/main'
+import { strUtil } from '../../../packages/util/src/index'
 
 test.skip('text start',()=>{
   console.log('text start')
