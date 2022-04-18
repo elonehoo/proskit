@@ -16,6 +16,10 @@ class convert{
   static toBoolean(value:number):boolean{
     return value === 0 ? false : true;
   }
+
+  static arrayToString(value:any[]):string{
+    return value.join(',');
+  }
 }
 
 export default convert
