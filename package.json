@@ -7,7 +7,9 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "publish": "npm -C packages/core run publish && npm -C packages/util run publish"
+    "publish": "npm -C packages/core run publish && npm -C packages/util run publish",
+    "core:test": "npm -C test/core_test run test",
+    "util:test": "npm -C test/util_test run test"
   },
   "devDependencies": {
     "typescript": "^4.5.4",

@@ -15,7 +15,11 @@ test.skip('test convert to string',()=>{
   console.log('convert to string 2',typeof convert.toString(2.8), convert.toString(2.8))
 })
 
-test('test convert to boolean',()=>{
+test.skip('test convert to boolean',()=>{
   console.log(convert.toBoolean(0))
   console.log(convert.toBoolean(1))
+})
+
+test('test convert array to string',()=>{
+  console.log(convert.arrayToString([1,2,3]))
 })
