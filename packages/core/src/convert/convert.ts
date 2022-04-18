@@ -17,6 +17,11 @@ class convert{
     return value === 0 ? false : true;
   }
 
+  /**
+   * array convert to string
+   * @param value value to convert
+   * @returns string
+   */
   static arrayToString(value:any[]):string{
     return value.join(',');
   }

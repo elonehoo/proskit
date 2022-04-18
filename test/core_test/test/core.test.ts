@@ -23,3 +23,4 @@ test.skip('test convert to boolean',()=>{
 test('test convert array to string',()=>{
   console.log(convert.arrayToString([1,2,3]))
 })
+
