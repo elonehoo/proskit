@@ -19,8 +19,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.5.4",
-    "vite": "^2.9.0"
+    "typescript": "4.7.4",
+    "vite": "2.9.14"
   },
   "dependencies":{
     "@proskit/core": "^0.0.1"
