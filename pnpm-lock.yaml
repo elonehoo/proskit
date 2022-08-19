@@ -2,12 +2,12 @@ lockfileVersion: 5.3
 
 specifiers:
   typescript: 4.7.4
-  vite: 3.0.4
+  vite: 3.0.9
   vitest: 0.21.0
 
 devDependencies:
   typescript: 4.7.4
-  vite: 3.0.4
+  vite: 3.0.9
   vitest: 0.21.0
 
 packages:
@@ -403,8 +403,8 @@ packages:
     hasBin: true
     dev: true
 
-  /vite/3.0.4:
-    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
+  /vite/3.0.9:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -463,7 +463,7 @@ packages:
       local-pkg: 0.4.2
       tinypool: 0.2.4
       tinyspy: 1.0.0
-      vite: 3.0.4
+      vite: 3.0.9
     transitivePeerDependencies:
       - less
       - sass
