@@ -4,7 +4,7 @@
   "private": false,
   "description": "a tool class that makes javascript very sweet",
   "main": "./src/index.ts",
-  "packageManager": "pnpm@6.34.0",
+  "packageManager": "pnpm@7.11.0",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "repository": {
